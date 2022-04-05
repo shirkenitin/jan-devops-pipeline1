@@ -1,0 +1,15 @@
+pipeline
+{
+    agent any    //define agent at top level
+ stages          //it contains all the stages
+
+{
+    stage ('print a msg')  //
+     {
+         steps
+          {sh echo hi I'm jekins}
+
+     
+     }
+}
+}
